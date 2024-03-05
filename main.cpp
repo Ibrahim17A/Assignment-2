@@ -11,11 +11,11 @@ int main() {
     list.push_back("Max");
     cout << "Current list: " << endl;
     list.print();
-    cout << "\nPush back Sanji and pop_front: " << endl;
+    cout << "\nPush back Karmen and pop_front: " << endl;
     list.push_back("Karmen");
     list.pop_front();
     list.print();
-    cout <<"\nList after inserting Zoro to index 1:" << endl;
+    cout <<"\nList after inserting Haaland to index 1:" << endl;
     list.insert(1,"Haaland");
     list.print();
     cout << "front() = " << list.front();
@@ -23,7 +23,7 @@ int main() {
     cout << endl;
 
 
-    vectorStack stack;
+    VectorStack stack;
     stack.add(5);
     stack.add(12);
     stack.add(34);
